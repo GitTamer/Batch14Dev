@@ -1,0 +1,2 @@
+SELECT id, name, phone FROM Account 
+select id, name, Project_Name__c, Status__c, Description__c from Salesforce_Project__c
