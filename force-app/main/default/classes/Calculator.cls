@@ -31,6 +31,7 @@ public class Calculator {
         return lp; 
     }
 //parameterless method
+//this is a private method with default massage
     public void publicMessage(){
         system.debug('public method called');
 
