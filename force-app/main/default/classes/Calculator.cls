@@ -1,4 +1,5 @@
 public class Calculator {
+    //parameterless method
     public void welcomeMessage(){
         system.debug('welcome apex calc, update');
     }
@@ -29,7 +30,8 @@ public class Calculator {
         Boolean lp=date.isLeapYear(year);
         return lp; 
     }
-
+//parameterless method
+//this is a private method with default massage
     public void publicMessage(){
         system.debug('public method called');
 
